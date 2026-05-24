@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.2",
+  "source": "Sticklight Brand Voice & Tone Guidelines",
+  "rules": [
+    {
+      "id": "voice-01",
+      "category": "core_voice",
+      "rule": "Write with grounded precision: balance visionary creative feel with tangible, production-ready credibility.",
+      "rationale": "The brand should sound like a sharp, responsive partner — confident and clear, not inflated or vague.",
+      "example": {
+        "good": "Build websites, apps, and stores in minutes.",
+        "bad": "We're reimagining what's possible for the future of the web."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "voice-02",
+      "category": "core_voice",
+      "rule": "Write with empowering copy: keep the creator in command. The user leads; Sticklight follows.",
+      "rationale": "Copy should respect the creator's agency and unique fingerprint. Sticklight is a collaborative partner, not an autonomous decision-maker.",
+      "example": {
+        "good": "You lead. Sticklight follows.",
+        "bad": "Sticklight can do what designers used to."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "voice-03",
+      "category": "core_voice",
+      "rule": "Write in the language of builders: use the vocabulary of deliverables and build processes.",
+      "rationale": "The brand should sound production-ready. Speak in the terms builders recognize: components, deployment, breakpoints, refactoring.",
+      "example": {
+        "good": "Refine the layout, deploy your project, and ship to a custom domain.",
+        "bad": "Make things look nice and share them online."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-01",
+      "category": "grammar_style",
+      "rule": "Use active voice. Identify the actor and the action clearly.",
+      "rationale": "Active voice makes actions shorter, clearer, and easier to scan.",
+      "example": {
+        "good": "Layout generated.",
+        "bad": "I have generated the layout."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-02",
+      "category": "grammar_style",
+      "rule": "Use sentence case for all headings and UI labels.",
+      "rationale": "Sentence case signals a clean, modern, function-first interface.",
+      "example": {
+        "good": "Site settings",
+        "bad": "Site Settings"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-03",
+      "category": "grammar_style",
+      "rule": "Be concise. Skip the fluff and jargon.",
+      "rationale": "Efficiency and cleanliness are core brand values. Every word should earn its place.",
+      "example": {
+        "good": "Add a widget to your project.",
+        "bad": "You can easily and quickly add a beautiful widget to your amazing project."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-04",
+      "category": "grammar_style",
+      "rule": "Avoid adjective fluff and empty intensifiers like 'stunning', 'amazing', or 'powerful'.",
+      "rationale": "Filler adjectives add noise without adding meaning. Let the product speak for itself.",
+      "example": {
+        "good": "Build responsive layouts.",
+        "bad": "Build stunning, amazing, powerful responsive layouts."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-05",
+      "category": "grammar_style",
+      "rule": "Use minimal emojis — only as status indicators. No emojis in alert or accountability states.",
+      "rationale": "Emojis should signal state (e.g., success), not decorate copy or soften errors.",
+      "example": {
+        "good": "Green checkmarks in Satisfaction states only.",
+        "bad": "Oops! 😅 Something went wrong. Don't worry though! 🙏"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-06",
+      "category": "grammar_style",
+      "rule": "Avoid excessive apologies. Acknowledge errors and provide the fix.",
+      "rationale": "The brand takes accountability without over-explaining or sounding anxious.",
+      "example": {
+        "good": "Something went wrong. Try again.",
+        "bad": "We're so sorry! We sincerely apologize for this terrible inconvenience."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "tone-01",
+      "category": "tone",
+      "rule": "Default to a functional tone: concise and action-oriented. Used during active building.",
+      "rationale": "Most product interactions should feel fast and efficient, not conversational or ceremonial.",
+      "example": {
+        "good": "Select an element to start editing.",
+        "bad": "Let's jump in together and start making something awesome!"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "tone-02",
+      "category": "tone",
+      "rule": "Use a collaborative and validating tone during brainstorming or early planning: open, inquisitive, and empowering.",
+      "rationale": "When users are exploring intent, copy should invite and expand, not direct or constrain.",
+      "example": {
+        "good": "What would you like to build today?",
+        "bad": "Click here to start. Choose a template."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "tone-03",
+      "category": "tone",
+      "rule": "Use a diagnostic tone in error states: precise, technical, and solution-focused.",
+      "rationale": "Errors should explain what happened and what the user can do next — not apologize or dramatize.",
+      "example": {
+        "good": "The integration couldn't connect. Check your API key and try again.",
+        "bad": "Uh oh! Something went wrong. We're on it!"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "tone-04",
+      "category": "tone",
+      "rule": "Use a systemic, formal, and clear tone for settings and policy copy.",
+      "rationale": "Settings and policy contexts require precision and trust, not warmth or creativity.",
+      "example": {
+        "good": "Deleting this project is permanent and cannot be undone.",
+        "bad": "Heads up — once you delete this, it's gone for good!"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "interaction-01",
+      "category": "interaction",
+      "rule": "Briefly echo complex instructions to ensure alignment. Perform simple tasks immediately.",
+      "rationale": "This 'Lead/Follow' protocol helps users stay in control without unnecessary back-and-forth.",
+      "example": {
+        "good": "Got it — I'll redesign the hero section with your brand colors and add a contact form below.",
+        "bad": "Can you tell me more about what you want? What colors? What kind of form?"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "interaction-02",
+      "category": "interaction",
+      "rule": "Only ask questions if the build is genuinely at risk. Apply industry-standard defaults for under-specified prompts.",
+      "rationale": "Maintain momentum. Halting with questions for minor decisions stalls the creative process.",
+      "example": {
+        "good": "I've added a hero section with a standard layout. Let me know if you'd like to adjust it.",
+        "bad": "Before I start, can you tell me: What layout? What image? What headline? What CTA text?"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "interaction-03",
+      "category": "interaction",
+      "rule": "Write for a broad, non-technical audience. Sticklight creators include teachers, store owners, designers, and anyone who builds with AI — not just developers. Use plain language that respects intelligence without assuming technical knowledge.",
+      "rationale": "Sticklight's audience is anyone who vibe codes. A teacher or store owner won't know what 'rem values' or 'breakpoints' mean. Copy should be clear to a general audience without being condescending.",
+      "example": {
+        "good": "Adjust the spacing to keep things consistent across screen sizes.",
+        "bad": "Adjust the rem values for consistent spacing across breakpoints."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "sticklight-vs-ai-01",
+      "category": "product_language",
+      "rule": "Use Sticklight when referring to the product, platform, interface, or overall experience. Use AI when referring to the intelligence behind the output.",
+      "rationale": "This distinction keeps copy precise and prevents both over-humanizing the AI and making the product feel cold.",
+      "example": {
+        "good": "Use Skills to teach the AI how to handle repeatable tasks. Sticklight will follow them on every new project.",
+        "bad": "Use Skills to teach Sticklight how to think. The AI will handle everything from here."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "sticklight-vs-ai-02",
+      "category": "product_language",
+      "rule": "Do not refer to Sticklight as a 'bot', 'assistant', or 'agent' unless officially supported as a product term.",
+      "rationale": "These terms reduce Sticklight to a tool and undermine the collaborative partner positioning.",
+      "example": {
+        "good": "Open the Chat panel to continue working with Sticklight.",
+        "bad": "Chat with the AI bot to refine your project."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "cta-01",
+      "category": "ctas_and_labels",
+      "rule": "Use Create as the primary CTA for starting project creation. Avoid Generate, Make, or Produce.",
+      "rationale": "Create signals intentionality and ownership. Generate makes the product feel like a one-shot AI output.",
+      "example": {
+        "good": "Create",
+        "bad": "Generate"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "cta-02",
+      "category": "ctas_and_labels",
+      "rule": "Keep CTA labels short, direct, and action-oriented.",
+      "rationale": "UI labels should be immediately scannable and trigger a clear mental model of the action.",
+      "example": {
+        "good": "Add widget",
+        "bad": "Click here to add a new widget to your project"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "cta-03",
+      "category": "ctas_and_labels",
+      "rule": "Use Restore this version for version restoration actions. Make the impact of destructive actions clear.",
+      "rationale": "Users need to understand consequences before acting on irreversible changes.",
+      "example": {
+        "good": "Restore this version. This will replace your current project state.",
+        "bad": "Go back to this version."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-01",
+      "category": "ux_writing",
+      "rule": "Write empty states as invitations to action, not as absence of content.",
+      "rationale": "Empty states are an opportunity to guide users forward, not dead ends.",
+      "example": {
+        "good": "No projects yet. Describe what you want to build and Sticklight will create it.",
+        "bad": "No projects found."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-02",
+      "category": "ux_writing",
+      "rule": "Keep tooltips and instructional copy focused on outcome, not UI mechanics.",
+      "rationale": "Outcome-focused copy is more useful than describing where to click.",
+      "example": {
+        "good": "Plan your next steps before building.",
+        "bad": "Click this button to enter Plan mode."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-03",
+      "category": "ux_writing",
+      "rule": "Write onboarding copy that builds confidence without over-explaining. One idea per step.",
+      "rationale": "Cognitive overload in onboarding causes drop-off. One clear message per step keeps momentum.",
+      "example": {
+        "good": "Describe the website you want to create.",
+        "bad": "To get started, you'll want to think about the type of website you'd like to create, then describe it in the box below, and Sticklight will use its AI to generate a first version for you to review."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-04",
+      "category": "ux_writing",
+      "rule": "Use parallel structure for lists, tabs, and navigation items.",
+      "rationale": "Parallelism makes scanning faster and patterns easier to recognize.",
+      "example": {
+        "good": "Preview / Edit / Code / Database",
+        "bad": "Preview / Editing mode / See code / Your data"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-05",
+      "category": "ux_writing",
+      "rule": "Write error messages that explain what happened and what the user can do next.",
+      "rationale": "Errors without next steps leave users stuck. Both the cause and the resolution should be clear.",
+      "example": {
+        "good": "Couldn't publish. Check your domain settings and try again.",
+        "bad": "An error occurred."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-06",
+      "category": "ux_writing",
+      "rule": "Distinguish between modes clearly in copy. Each mode has a specific name — use it consistently.",
+      "rationale": "Plan mode, Focus mode, and Edit mode have distinct functions. Inconsistent naming breaks user mental models.",
+      "example": {
+        "good": "Exit Plan mode to start building.",
+        "bad": "Leave this mode to continue."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-07",
+      "category": "ux_writing",
+      "rule": "Avoid 'just', 'simply', or 'easy' in instructional copy.",
+      "rationale": "These words minimize the user's effort and can feel dismissive when a task is actually complex.",
+      "example": {
+        "good": "Add a widget to your project.",
+        "bad": "Just add a widget — it's super easy!"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-08",
+      "category": "ux_writing",
+      "rule": "Use second person ('you', 'your') to address the user directly.",
+      "rationale": "Direct address keeps copy personal and action-oriented without sounding like documentation.",
+      "example": {
+        "good": "Your project is ready.",
+        "bad": "The project has been created successfully."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "wq-01",
+      "category": "writing_quality",
+      "rule": "Use natural, conversational action verbs. Replace formal register verbs with plain alternatives.",
+      "rationale": "Formal verbs signal a system talking at a user, not a product working with a creator.",
+      "patterns": {
+        "avoid": [
+          "Provide",
+          "Submit",
+          "Configure",
+          "Utilize",
+          "Define",
+          "Specify",
+          "Ensure"
+        ],
+        "prefer": [
+          "Add",
+          "Send",
+          "Set up",
+          "Use",
+          "Set",
+          "Choose",
+          "Make sure"
+        ]
+      },
+      "example": {
+        "bad": "Provide your brand assets and requirements to configure the build.",
+        "good": "Add your brand assets and tell Sticklight what you need."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-02",
+      "category": "writing_quality",
+      "rule": "Cut empty qualifiers. Words like 'specific', 'relevant', 'appropriate', 'desired', 'necessary', 'as needed', and 'as appropriate' add length without meaning.",
+      "rationale": "Empty qualifiers are a hallmark of generated or formal copy. They dilute clarity without adding information.",
+      "patterns": {
+        "avoid": [
+          "specific",
+          "relevant",
+          "appropriate",
+          "desired",
+          "necessary",
+          "as needed",
+          "as desired",
+          "as appropriate"
+        ]
+      },
+      "example": {
+        "bad": "Provide the relevant requirements to generate a build tailored to your specific context.",
+        "good": "Add your requirements and Sticklight will tailor the project to your context."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-03",
+      "category": "writing_quality",
+      "rule": "Replace bureaucratic nouns with plain alternatives. Avoid: baseline, requirements, parameters, initialization, configuration, customization.",
+      "rationale": "These nouns belong in documentation or technical specs, not in product copy aimed at creators.",
+      "patterns": {
+        "avoid": [
+          "baseline",
+          "parameters",
+          "initialization",
+          "configuration",
+          "customization",
+          "requirements (when 'what you need' is clearer)"
+        ],
+        "prefer": [
+          "starting point",
+          "settings",
+          "setup",
+          "edits or changes",
+          "what you need"
+        ]
+      },
+      "example": {
+        "bad": "Set this template as your project's baseline.",
+        "good": "Start from this template and make it your own."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-04",
+      "category": "writing_quality",
+      "rule": "Apply the Lead/Follow frame when describing what Sticklight does. When the user acts and Sticklight responds, name both sides explicitly.",
+      "rationale": "Hiding Sticklight's role behind passive constructions or vague outcomes makes copy feel mechanical and removes the sense of collaboration.",
+      "example": {
+        "bad": "A build will be created tailored to your context.",
+        "good": "Sticklight will build a project tailored to your context."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-05",
+      "category": "writing_quality",
+      "rule": "Remove unnecessary permission-giving. Don't tell users they 'can' or 'are able to' do something — just describe the action.",
+      "rationale": "Permission-giving language is paternalistic and adds a step between the user and the action.",
+      "patterns": {
+        "avoid": [
+          "Feel free to",
+          "You can",
+          "You are able to",
+          "This will allow you to",
+          "This enables you to"
+        ]
+      },
+      "example": {
+        "bad": "Feel free to add your brand assets. You can also specify your requirements.",
+        "good": "Add your brand assets and requirements."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-06",
+      "category": "writing_quality",
+      "rule": "Cut redundant constructions. Replace multi-word fillers with the single word or phrase that does the same job.",
+      "rationale": "Redundant constructions are a reliable signal of generated or bureaucratic copy.",
+      "patterns": {
+        "avoid": [
+          "In order to → To",
+          "At this point in time → Now",
+          "Successfully [verb]ed → [verb]ed (e.g. 'Saved', not 'Successfully saved')",
+          "This will help you to → cut",
+          "Has been created → Created",
+          "Is designed to → just say what it does",
+          "In the event that → If"
+        ]
+      },
+      "example": {
+        "bad": "In order to create a build, provide your requirements. The project has been successfully created.",
+        "good": "Add your requirements. Project created."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-07",
+      "category": "writing_quality",
+      "rule": "Remove hedging language. Phrases like 'may', 'might', 'could potentially', and 'might want to consider' weaken statements that should be direct.",
+      "rationale": "Hedging makes the product sound uncertain. Sticklight copy should be confident and direct.",
+      "patterns": {
+        "avoid": [
+          "could potentially",
+          "may help improve",
+          "might want to consider",
+          "you may wish to"
+        ]
+      },
+      "example": {
+        "bad": "Adding a brand kit may help improve the output and could potentially make your project look more consistent.",
+        "good": "Add a brand kit to keep your project visually consistent."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "wq-08",
+      "category": "writing_quality",
+      "rule": "Remove paternalistic or over-deferential phrasing. Avoid 'Please', 'Please note that', 'Don't worry', and similar.",
+      "rationale": "This tone treats users as novices who need reassurance. Sticklight assumes expertise and mutual respect.",
+      "patterns": {
+        "avoid": [
+          "Please [verb]",
+          "Please note that",
+          "Don't worry",
+          "No worries",
+          "Note that (for non-critical information)"
+        ]
+      },
+      "example": {
+        "bad": "Please enter your API key. Don't worry, you can always change this later.",
+        "good": "Enter your API key. You can update it any time in Settings."
+      },
+      "reviewer_behavior": "silent"
+    },
+    {
+      "id": "style-07",
+      "category": "grammar_style",
+      "rule": "No period at the end of single sentences or fragments in UI copy. Use periods when copy contains 2 or more sentences.",
+      "rationale": "A period after a single-sentence label or tooltip adds unnecessary visual weight. Periods are needed to separate multiple sentences.",
+      "example": {
+        "good": "Select an element to start editing\n\n'Deleting this project is permanent. This action cannot be undone.'",
+        "bad": "Select an element to start editing.\n\n'Deleting this project is permanent and cannot be undone'"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-08",
+      "category": "grammar_style",
+      "rule": "Use contractions throughout. 'It's', 'don't', 'you'll', 'can't' are preferred over their full forms.",
+      "rationale": "Contractions keep copy conversational and direct. Full forms sound stiff and formal, which conflicts with Sticklight's voice.",
+      "example": {
+        "good": "You'll need to reconnect your GitHub account.",
+        "bad": "You will need to reconnect your GitHub account."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "style-09",
+      "category": "grammar_style",
+      "rule": "Always use numerals for numbers in UI copy. Never spell them out.",
+      "rationale": "Numerals are faster to scan in a UI context. Consistency avoids mixed patterns ('3 issues' and 'three screens' in the same product).",
+      "example": {
+        "good": "3 issues found across 2 screens.",
+        "bad": "Three issues found across two screens."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "product-03",
+      "category": "product_language",
+      "rule": "When referring to users in the abstract (not second person), use 'creators'. Not 'users', 'builders', or 'people'.",
+      "rationale": "'Creators' reflects Sticklight's positioning — the product serves people who make things, regardless of their technical background.",
+      "example": {
+        "good": "Built for creators who want to ship fast.",
+        "bad": "Built for users who want to ship fast."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "product-04",
+      "category": "product_language",
+      "rule": "Restructure copy to avoid possessives with product names. Never use 'Sticklight's' or 'Pink's'.",
+      "rationale": "Possessives with product names can sound awkward and are inconsistent with how the product refers to itself.",
+      "example": {
+        "good": "Open the Chat panel in Sticklight.",
+        "bad": "Open Sticklight's Chat panel."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "tone-05",
+      "category": "tone",
+      "rule": "Celebratory and motivational copy is only appropriate at defined milestone moments: joining Sticklight, launching a website, and adding a Skill. All other interactions use the functional tone.",
+      "rationale": "Milestone moments deserve recognition. Applying celebratory copy to routine actions dilutes it and makes the product feel performative.",
+      "example": {
+        "good": "Your site is live. (on publish)\n\nProject created. (on routine creation)",
+        "bad": "Amazing! You just created a project! 🎉 (on routine creation)"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-09",
+      "category": "ux_writing",
+      "rule": "Placeholder text in input fields must be a short label in sentence case with no period. Do not use full sentences or examples as placeholders.",
+      "rationale": "Short labels set clear expectations about what the field is for without cluttering the input with unnecessary copy.",
+      "example": {
+        "good": "Project name",
+        "bad": "Enter the name of your project here..."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-10",
+      "category": "ux_writing",
+      "rule": "Use descriptive link text. Avoid 'Learn more', 'Click here', or 'Read more'. The link text should describe the destination or action.",
+      "rationale": "Vague link text fails accessibility standards and leaves creators guessing about where they'll land.",
+      "example": {
+        "good": "Learn about Skills",
+        "bad": "Learn more"
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-11",
+      "category": "ux_writing",
+      "rule": "Write success and confirmation states as short sentences, not single past-tense verbs.",
+      "rationale": "A short sentence gives the creator meaningful confirmation and keeps the voice human. Bare verbs feel terse and system-generated.",
+      "example": {
+        "good": "Your project is ready.",
+        "bad": "Created."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "ux-12",
+      "category": "ux_writing",
+      "rule": "This skill covers in-product UI copy and conversational design — what Sticklight says in the Chat panel. It does not cover marketing pages, emails, or social copy.",
+      "rationale": "In-product copy and conversational responses follow the same voice rules. Marketing copy operates under different standards and is out of scope.",
+      "example": {
+        "good": "Review: labels, tooltips, empty states, error messages, modals, Sticklight's chat responses.",
+        "bad": "Review: marketing landing pages, onboarding emails, social posts."
+      },
+      "reviewer_behavior": "scope"
+    },
+    {
+      "id": "inclusive-01",
+      "category": "inclusive_language",
+      "rule": "Use gender-neutral language. Avoid 'guys' — use 'creators', 'everyone', or 'the team'. Use 'they/them' as the default singular pronoun.",
+      "rationale": "Sticklight is built for everyone. Gendered language excludes part of the audience.",
+      "example": {
+        "good": "Invite your team to collaborate.",
+        "bad": "Invite your guys to collaborate."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "inclusive-02",
+      "category": "inclusive_language",
+      "rule": "Avoid ableist terms. Replace: 'sanity check' → 'confidence check', 'blind spot' → 'gap', 'dumb down' → 'simplify', 'crazy' → 'unexpected' or cut.",
+      "rationale": "Ableist language is exclusionary and unprofessional. Plain alternatives are clearer and more direct anyway.",
+      "example": {
+        "good": "Run a confidence check before publishing.",
+        "bad": "Run a sanity check before publishing."
+      },
+      "reviewer_behavior": "flag"
+    },
+    {
+      "id": "inclusive-03",
+      "category": "inclusive_language",
+      "rule": "Avoid terms with problematic historical connotations. Replace: 'blacklist/whitelist' → 'blocklist/allowlist', 'master/slave' → 'primary/secondary' or 'main/replica'.",
+      "rationale": "These terms carry unnecessary historical weight. Neutral alternatives are widely accepted and equally clear.",
+      "example": {
+        "good": "Add this domain to the allowlist.",
+        "bad": "Add this domain to the whitelist."
+      },
+      "reviewer_behavior": "flag"
+    }
+  ]
+}
